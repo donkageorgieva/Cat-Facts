@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.CatInfo {
+  height: 600px;
+  .HeroImageContainer {
+    .HeroImage {
+      background-image: url("../../utilities/images/heroImage.svg");
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .CatInfo {
+    padding: 10em 0em 0em 0em;
+    .HeroImageContainer {
+      margin: 3em 0em 0em 0em;
+      .HeroImage {
+        height: 15em;
+      }
+    }
+    .HeroTextContainer {
+      margin: 3em 0em 0em 0em;
+    }
+  }
+}

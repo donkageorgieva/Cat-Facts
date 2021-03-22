@@ -1,0 +1,64 @@
+@import "App.scss";
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+  h1 {
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: $secondary;
+
+    line-height: 1.45;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: lighten($color: $secondary, $amount: 20%);
+    line-height: 1.45;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: $secondary;
+    line-height: 1.45;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+  }
+  a {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@include media-breakpoint-down(lg) {
+  body {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      color: $secondary;
+      line-height: 1.45;
+    }
+    p {
+      font-size: 15px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 500;
+      line-height: 1.75;
+    }
+    a {
+      font-size: 15px;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}

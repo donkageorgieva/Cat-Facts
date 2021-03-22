@@ -1,0 +1,16 @@
+@import "../../App.scss";
+
+.Header {
+  height: 100vh;
+}
+
+@include media-breakpoint-down(lg) {
+  .Header {
+    height: 50em;
+    align-items: center;
+
+    &:after {
+      display: none;
+    }
+  }
+}

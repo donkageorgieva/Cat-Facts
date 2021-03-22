@@ -1,0 +1,12 @@
+@import "../../App.scss";
+
+.MainImage {
+  height: 20em;
+  max-width: 100%;
+}
+
+@include media-breakpoint-down(sm) {
+  .MainImage {
+    height: 10em;
+  }
+}
