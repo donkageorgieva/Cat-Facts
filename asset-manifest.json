@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/donkageorgieva.github.io/Cat-Facts/static/css/main.574aff11.chunk.css",
-    "main.js": "/donkageorgieva.github.io/Cat-Facts/static/js/main.488344bf.chunk.js",
-    "main.js.map": "/donkageorgieva.github.io/Cat-Facts/static/js/main.488344bf.chunk.js.map",
-    "runtime-main.js": "/donkageorgieva.github.io/Cat-Facts/static/js/runtime-main.42fe9409.js",
-    "runtime-main.js.map": "/donkageorgieva.github.io/Cat-Facts/static/js/runtime-main.42fe9409.js.map",
-    "static/js/2.96a8ea51.chunk.js": "/donkageorgieva.github.io/Cat-Facts/static/js/2.96a8ea51.chunk.js",
-    "static/js/2.96a8ea51.chunk.js.map": "/donkageorgieva.github.io/Cat-Facts/static/js/2.96a8ea51.chunk.js.map",
-    "static/js/3.4df36045.chunk.js": "/donkageorgieva.github.io/Cat-Facts/static/js/3.4df36045.chunk.js",
-    "static/js/3.4df36045.chunk.js.map": "/donkageorgieva.github.io/Cat-Facts/static/js/3.4df36045.chunk.js.map",
-    "index.html": "/donkageorgieva.github.io/Cat-Facts/index.html",
-    "static/css/main.574aff11.chunk.css.map": "/donkageorgieva.github.io/Cat-Facts/static/css/main.574aff11.chunk.css.map",
-    "static/js/2.96a8ea51.chunk.js.LICENSE.txt": "/donkageorgieva.github.io/Cat-Facts/static/js/2.96a8ea51.chunk.js.LICENSE.txt",
-    "static/media/CatInfo.module.scss": "/donkageorgieva.github.io/Cat-Facts/static/media/heroImage.1c703b24.svg",
-    "static/media/mainSectionImage.4fc39ed7.svg": "/donkageorgieva.github.io/Cat-Facts/static/media/mainSectionImage.4fc39ed7.svg"
+    "main.css": "/Cat-Facts/static/css/main.d9dbb1cb.chunk.css",
+    "main.js": "/Cat-Facts/static/js/main.488344bf.chunk.js",
+    "main.js.map": "/Cat-Facts/static/js/main.488344bf.chunk.js.map",
+    "runtime-main.js": "/Cat-Facts/static/js/runtime-main.de592e8f.js",
+    "runtime-main.js.map": "/Cat-Facts/static/js/runtime-main.de592e8f.js.map",
+    "static/js/2.96a8ea51.chunk.js": "/Cat-Facts/static/js/2.96a8ea51.chunk.js",
+    "static/js/2.96a8ea51.chunk.js.map": "/Cat-Facts/static/js/2.96a8ea51.chunk.js.map",
+    "static/js/3.4df36045.chunk.js": "/Cat-Facts/static/js/3.4df36045.chunk.js",
+    "static/js/3.4df36045.chunk.js.map": "/Cat-Facts/static/js/3.4df36045.chunk.js.map",
+    "index.html": "/Cat-Facts/index.html",
+    "static/css/main.d9dbb1cb.chunk.css.map": "/Cat-Facts/static/css/main.d9dbb1cb.chunk.css.map",
+    "static/js/2.96a8ea51.chunk.js.LICENSE.txt": "/Cat-Facts/static/js/2.96a8ea51.chunk.js.LICENSE.txt",
+    "static/media/CatInfo.module.scss": "/Cat-Facts/static/media/heroImage.1c703b24.svg",
+    "static/media/mainSectionImage.4fc39ed7.svg": "/Cat-Facts/static/media/mainSectionImage.4fc39ed7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.42fe9409.js",
+    "static/js/runtime-main.de592e8f.js",
     "static/js/2.96a8ea51.chunk.js",
-    "static/css/main.574aff11.chunk.css",
+    "static/css/main.d9dbb1cb.chunk.css",
     "static/js/main.488344bf.chunk.js"
   ]
 }
