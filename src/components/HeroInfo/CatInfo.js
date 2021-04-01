@@ -25,19 +25,7 @@ const catInfo = (props) => {
 
     }
   }
-  const scrollTop = {
-    hidden: {
-      opacity: 0,
-      y: -100,
-    },
-    visible: {
-      opacity: 1,
-      transition: 0.65,
-      y: 0,
 
-
-    }
-  }
   const scrollBottom = {
     hidden: {
       opacity: 0,
@@ -65,7 +53,7 @@ const catInfo = (props) => {
 
     }
   }
-  
+
   return (
     <section
       className={[styles.CatInfo, "d-flex align-items-center home"].join(" ")}

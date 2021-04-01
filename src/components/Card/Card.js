@@ -10,9 +10,9 @@ import {
   StarFill,
 } from "react-bootstrap-icons";
 import styles from "./Card.module.scss";
-
+import {motion } from 'framer-motion';
 const card = (props) => {
-  console.log(props.cat);
+
   const levels = (level) => {
     return new Array(level)
       .fill(null)
@@ -30,10 +30,24 @@ const card = (props) => {
   let childFriendly = levels(props.cat.child_friendly);
   let dogFriendly = levels(props.cat.dog_friendly);
 
+  const scrollBottom = {
+    hidden: {
+      opacity: 0,
+      y: 100,
+    },
+    visible: {
+      opacity: 1,
+      transition: 0.65,
+      y: 0,
+
+
+    }
+    
+  }
   let catInfo = (
     <React.Fragment>
-      <Card.Img variant="top" src={props.imgURL} className={styles.CardImg} />
-      <Card.Title className="mt-3">{props.cat.name}</Card.Title>
+      <img  src={props.imgURL} className={[styles.CardImg, "card-img-top"]. join(' ')} />
+      <h5 className="mt-3 card-title h5">{props.cat.name}</h5>
       <Card.Text>{props.cat.description}</Card.Text>
 
       <ListGroup>
@@ -106,14 +120,15 @@ const card = (props) => {
   );
 
   return (
-    <Card className="mt-3" border="primary">
+    <motion.div className="card mt-3" border="primary" 
+    initial="hidden" animate="visible" variants={scrollBottom}>
       <Card.Img variant="top" />
       <Card.Body>
         {catInfo}
         <Card.Text></Card.Text>
         <Card.Text></Card.Text>
       </Card.Body>
-    </Card>
+    </motion.div>
   );
 };
 

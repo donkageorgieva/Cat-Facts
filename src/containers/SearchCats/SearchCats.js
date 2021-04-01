@@ -29,7 +29,9 @@ class SearchCats extends Component {
         </option>
       );
     });
+    console.log(this.state.breedToDisplay);
     return (
+
       <main className={[styles.MainContent, "search-cats"].join(" ")}>
         <section>
           <Container>
